@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xabier Iribar | Comunicación Internacional</title>
+    <meta name="description" content="Especialista en comunicación multilingüe y creación de contenido digital, con experiencia internacional en Suiza, República Checa y España.">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">XI</a>
+        <nav class="nav-menu">
+            <ul class="menu-items">
+                <li><a href="#" class="nav-button active">Inicio</a></li>
+                <li><a href="about.html" class="nav-button">Sobre mí</a></li>
+                <li><a href="#newsletter" class="nav-button">Newsletter</a></li>
+            </ul>
+            <div class="language-selector">
+                <button data-lang="es" class="active">ES</button>
+                <button data-lang="eu">EU</button>
+                <button data-lang="en">EN</button>
+                <button data-lang="de">DE</button>
+                <button data-lang="fr">FR</button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Xabier Iribar</h1>
+                <div class="hero-subtitle">
+                    <span class="highlight">Comunicación Internacional</span>
+                    <span class="separator">|</span>
+                    <span class="highlight">Creación de Contenido</span>
+                </div>
+                <p class="hero-description">
+                    Especialista en comunicación multilingüe y creación de contenido digital,
+                    con experiencia internacional en Suiza, República Checa y España.
+                </p>
+                <div class="hero-cta">
+                    <a href="#newsletter" class="cta-button">Suscribirse</a>
+                    <a href="about.html" class="cta-button outline">Conocer más</a>
+                </div>
+                <div class="scroll-indicator">
+                    <p>Scroll para explorar</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="newsletter" class="newsletter-section">
+            <div class="newsletter-container">
+                <div class="newsletter-content">
+                    <h2 class="reveal-text">Suscríbete a mi Newsletter</h2>
+                    <p class="reveal-text">Recibe actualizaciones sobre mi viaje profesional, consejos de aprendizaje de idiomas y contenido exclusivo sobre comunicación internacional.</p>
+                    <form class="newsletter-form reveal-text" id="newsletter-form">
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                            <button type="submit" class="subscribe-button">Suscribirse</button>
+                        </div>
+                        <div class="form-privacy">
+                            <label>
+                                <input type="checkbox" required>
+                                Acepto recibir comunicaciones y la <a href="#" class="privacy-link">política de privacidad</a>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="newsletter-features">
+                    <div class="feature reveal-text">
+                        <i class="fas fa-language"></i>
+                        <h3>Consejos de Idiomas</h3>
+                        <p>Estrategias y recursos para el aprendizaje de idiomas</p>
+                    </div>
+                    <div class="feature reveal-text">
+                        <i class="fas fa-globe"></i>
+                        <h3>Experiencias Internacionales</h3>
+                        <p>Historias y aprendizajes de mi vida en el extranjero</p>
+                    </div>
+                    <div class="feature reveal-text">
+                        <i class="fas fa-book-reader"></i>
+                        <h3>Contenido Exclusivo</h3>
+                        <p>Recursos y materiales únicos para suscriptores</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="value-areas" class="value-areas-section">
+            <div class="value-areas-container">
+                <h2 class="section-title reveal-text">
+                    Aprender es lo único que necesitas para mejorar todas las áreas de tu vida
+                </h2>
+                
+                <div class="cards-container">
+                    <!-- Vida profesional -->
+                    <div class="value-card reveal-text" tabindex="0">
+                        <div class="card-icon">
+                            <i class="fas fa-briefcase" aria-hidden="true"></i>
+                        </div>
+                        <h3>Vida profesional</h3>
+                        <p>Alcanza tus objetivos profesionales desarrollando habilidades autodidactas y gestionando proyectos con excelencia. Aprende a adaptarte a nuevos entornos, amplía tus contactos y conviértete en un profesional indispensable.</p>
+                        <div class="card-overlay">
+                            <span class="learn-more">Descubre más</span>
+                        </div>
+                    </div>
+
+                    <!-- Vida personal -->
+                    <div class="value-card reveal-text" tabindex="0">
+                        <div class="card-icon">
+                            <i class="fas fa-user-check" aria-hidden="true"></i>
+                        </div>
+                        <h3>Vida personal</h3>
+                        <p>Gana confianza y seguridad en ti mismo. Aprende nuevas habilidades, desarrolla una ética de trabajo sólida y proyecta una imagen de resiliencia y determinación que inspire a los demás.</p>
+                        <div class="card-overlay">
+                            <span class="learn-more">Descubre más</span>
+                        </div>
+                    </div>
+
+                    <!-- Tus relaciones -->
+                    <div class="value-card reveal-text" tabindex="0">
+                        <div class="card-icon">
+                            <i class="fas fa-heart" aria-hidden="true"></i>
+                        </div>
+                        <h3>Tus relaciones</h3>
+                        <p>Fomenta relaciones auténticas y significativas. Mejora tus habilidades sociales y tu capacidad de comunicación para conectar con personas de diferentes culturas y contextos.</p>
+                        <div class="card-overlay">
+                            <span class="learn-more">Descubre más</span>
+                        </div>
+                    </div>
+
+                    <!-- Desarrollo intelectual -->
+                    <div class="value-card reveal-text" tabindex="0">
+                        <div class="card-icon">
+                            <i class="fas fa-brain" aria-hidden="true"></i>
+                        </div>
+                        <h3>Desarrollo intelectual</h3>
+                        <p>Expande tu conocimiento y fortalece tu mente a través de la autodisciplina y el aprendizaje constante. Domina nuevos idiomas y adopta hábitos que impulsen tu crecimiento personal y profesional.</p>
+                        <div class="card-overlay">
+                            <span class="learn-more">Descubre más</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="help-section" class="help-section">
+            <div class="help-container">
+                <h2 class="section-title reveal-text">¿Cómo te puedo ayudar?</h2>
+                
+                <div class="help-content">
+                    <!-- Columna de texto -->
+                    <div class="help-text reveal-text">
+                        <h3>Contenido educativo gratuito</h3>
+                        <p>A través de mis plataformas, comparto contenido relacionado con el aprendizaje autodidacta, desarrollo personal, idiomas, y geografía.</p>
+                        <p>Enseño estrategias para superar desafíos personales y profesionales basadas en mi propia experiencia, desde alcanzar el B2 de francés en un año de forma autodidacta hasta conseguir destacar académicamente y laboralmente.</p>
+                        <p>Podrás acceder a lecciones prácticas, reflexiones, y herramientas diseñadas para ayudarte a mejorar tus habilidades y alcanzar tus metas.</p>
+                        <a href="#resources" class="cta-button reveal-text">
+                            Descubre mis recursos
+                            <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+
+                    <!-- Columna de imagen -->
+                    <div class="help-image reveal-text">
+                        <img src="images/Foto1.jpg" alt="Xabier Iribar compartiendo conocimiento" class="featured-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="history" class="history-section">
+            <div class="history-container">
+                <h2 class="section-title reveal-text">Mi Historia y Experiencia</h2>
+
+                <!-- Bloque 1: Sobre mí -->
+                <div class="history-block reveal-text">
+                    <div class="block-content">
+                        <div class="block-text">
+                            <h3>Sobre mí</h3>
+                            <p class="block-intro">A lo largo de los últimos años, he desarrollado un enfoque autodidacta único que me ha permitido alcanzar resultados excepcionales:</p>
+                            <ul class="achievement-list">
+                                <li>Obtuve el nivel B2 de francés en menos de un año de forma autodidacta.</li>
+                                <li>Me gradué en Geografía y Ordenación del Territorio con un TFG sobre la Guerra de los Chips.</li>
+                                <li>Me mudé a Suiza por mi cuenta, construyendo una nueva red de contactos y oportunidades desde cero.</li>
+                            </ul>
+                        </div>
+                        <div class="block-image">
+                            <img src="images/foto-2.jpg" alt="Xabier Iribar - Logros académicos y personales" class="history-image">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bloque 2: Mi experiencia -->
+                <div class="history-block reveal-text">
+                    <div class="block-content reverse">
+                        <div class="block-text">
+                            <h3>Mi experiencia</h3>
+                            <p class="block-intro">Mi trayectoria se define por la superación de desafíos académicos, personales y profesionales:</p>
+                            <ul class="achievement-list">
+                                <li>Aprendí inglés y francés desde cero hasta niveles avanzados (C1 y B2 respectivamente).</li>
+                                <li>Realicé un Erasmus en la República Checa, viajando por Centroeuropa y ampliando mis horizontes culturales.</li>
+                                <li>Desarrollé habilidades sociales, profesionales y agrícolas mientras trabajaba en Suiza.</li>
+                            </ul>
+                        </div>
+                        <div class="block-image">
+                            <img src="images/foto-3.jpg" alt="Xabier Iribar - Experiencia internacional" class="history-image">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bloque 3: En la actualidad -->
+                <div class="history-block reveal-text">
+                    <div class="block-content">
+                        <div class="block-text">
+                            <h3>En la actualidad</h3>
+                            <p class="block-intro">Actualmente, estoy trabajando en proyectos que reflejan mi pasión por el aprendizaje autodidacta y el crecimiento personal:</p>
+                            <ul class="achievement-list">
+                                <li>Desarrollo de contenido digital para inspirar a otros a aprender de forma autodidacta.</li>
+                                <li>Creación de una empresa que ayuda a negocios suizos a crecer mediante soluciones digitales personalizadas.</li>
+                            </ul>
+                            <div class="cta-container">
+                                <a href="#newsletter" class="cta-button">
+                                    ¡Únete a mi viaje y descubre cómo el aprendizaje autodidacta puede transformar tu vida!
+                                    <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="block-image">
+                            <img src="images/foto-4.jpg" alt="Xabier Iribar - Proyectos actuales" class="history-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Volver arriba">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <p>&copy; 2024 Xabier Iribar</p>
+            </div>
+            <div class="footer-right">
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations-advanced.js"></script>
+    <script src="js/theme-switcher.js"></script>
+</body>
+</html>
